@@ -23,7 +23,7 @@ package
         } 
  
         private function createLines(textBlock:TextBlock):void { 
-            var yPos=20; 
+            var yPos: int = 20; 
             var textLine:TextLine=textBlock.createTextLine(null,150); 
          
             while (textLine) { 
